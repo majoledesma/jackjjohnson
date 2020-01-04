@@ -1,0 +1,353 @@
+    body, img, h1, h2, p , h5{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: url('/images/jacksinger.png') no-repeat;
+    background-position: right;
+    background-color:#250036; 
+}
+
+.home {
+    font-family:'Lato', cursive;
+    font-size: 35px;
+    color: #FDFAAE;
+    background-color: transparent;
+    border-radius: 30px;
+    margin: 50px;
+    padding: 10px;
+    position: fixed;  
+    border: 1px solid #FDFAAE;
+    cursor: pointer;
+}
+
+
+.texto {
+padding: 150px 100px 80px 100px;
+}
+.titulo {
+    color: #FDFAAE;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 80px;
+    padding-left: 50px;
+    width: 500px;
+}
+
+.description1, .description2 {
+color: #FDFAAE;
+font-family: 'Roboto Mono', monospace;
+font-size: 14px;
+width: 350px;
+text-align: center;
+padding-left: 50px;
+padding-top: 20px;
+
+}
+
+.boton {
+    background: #250036;
+    color: #FDFAAE;
+    border-radius: 50px;
+    font-family: "Lato";
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background: #FDFAAE;
+    color: #250036;
+}
+
+.botones {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.frase {
+    color: white;
+    padding: 270px 300px 50px 300px;
+    font-family: "Lato";
+    font-size: 14px;
+}
+
+.discografia {
+    background-color: white;
+}
+
+.todos-discos {
+    display: flex;
+}
+.titulo-discografia{
+color: black;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+font-size: 40px;
+}
+
+.titulo-discografia:hover{
+    text-decoration: line-through;
+    color: #250036;
+}
+
+.arriba1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: #8a8a8a;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.nuevacancion {
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+}
+
+.nuevacancion:hover {
+    background-color: #FDFAAE;
+}
+
+.contenedor-discos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.contenedor-discos div {
+    width: 170px;
+    height: 170px;
+}
+
+.contenedor-discos div img {
+    padding-top: 30px;
+    height: 160px;
+    width: 160px;
+    padding-left: 10px;
+}
+
+
+.cancion {
+    font-family: "Oswald";
+    text-align: center;
+}
+
+.age {
+    text-align: center;
+    color: darkgray;
+    font-family: "Oswald";
+    font-size: 12px;
+}
+
+
+.popular {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(45deg, rgba(173,67,112,1) 30%, rgba(220,158,53,1) 89%);
+}
+
+.titulo-canciones {
+    color: white    ;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+font-size: 40px;
+padding-bottom: 30px;;
+}
+
+.titulo-canciones:hover{
+    text-decoration: line-through;
+    color: #250036;
+}
+
+.arriba2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color:black;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.song {
+    width: 80px;
+    height: 80px;
+}
+
+.iframe {
+ text-align: center;
+}
+
+.follow {
+    text-align: right ;
+}
+
+.galeria {
+    color: white    ;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    background-color: black;
+
+}
+.fotos {
+    padding: 30px 0 30px;
+    background-color: black;
+}
+.foto {
+    width: 200px;
+    height: 200px;
+}
+
+.fotos1 {
+display: flex;
+justify-content: center;
+}
+.fotos2 {
+    display: flex;
+    justify-content: center;
+    }
+.fotos3 {
+        display: flex;
+        justify-content: center;
+        }
+.footer {
+    background-color: #e3f86b;
+    font-family: "Oswald";
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 50px;
+    align-items: center;
+    color: white;
+}
+
+.majo-link:visited { 
+    color: black;
+    text-decoration: none;
+} 
+
+
+@media screen and (max-width:767px){
+    .container {
+        width: 100vw;
+        height: 100vh;
+        background: url('/images/jacksinger.png') no-repeat;
+        background-size: 100vw;
+        background-color:#250036; 
+        padding-bottom: 160px;
+        display: block;
+    }
+    .home {
+        margin: 20px;
+    }
+
+    .texto {
+        padding: 520px 20px 100px;
+        }
+
+    .titulo {
+        color: #FDFAAE;
+        font-family: 'Liu Jian Mao Cao', cursive;
+        font-size: 50px;
+        padding-right: 2px;
+        width: 80vw;
+    }
+
+    .description1, .description2 {
+        font-size: 16px;
+        width: 350px;
+        padding-left: 0px;  
+        padding-top: 70px;
+        }
+
+    .description2{
+        padding-top: 20px;
+    }
+     .botones {
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+     .boton {
+         width: 100px;
+     }  
+     
+     .todos-discos {
+        display: block;
+    }    
+
+    .contenedor-discos div img {
+        padding: 20px;
+        height: 160px;
+        width: 160px;
+        padding-left: 10px;
+    }
+
+    .cancion {
+        display: none;
+    }
+    .age {
+        display: none;
+    }
+    .frase {
+        display: none;
+    }
+
+    .nuevacancion {
+        width: 100vw;
+        height: auto;
+        padding:0px;
+    }
+
+    .foto {
+        width: 100vw;
+        height: auto;
+    }
+
+    .fotos {
+        width: 100vw;
+    }
+    
+    .fotos1 {
+        display: block;
+        }
+        .fotos2 {
+            display: block;
+            }
+        .fotos3 {
+                display: block;
+            }
+    
+}
+
+@media screen and (max-width:430px) {
+    .texto {
+        
+        width: auto;
+    }
+
+    .description1 {
+        padding-top: 90px;
+    }
+
+    .container {
+        padding-bottom: 280px;
+    }
+
+}
+@media screen and (max-width:390px) {
+    .texto {
+        width: auto;
+    }
+
+    .description1 {
+        padding-top: 50px;
+    }
+
+    .container {
+        padding-bottom: 250px;
+    }
+}
